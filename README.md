@@ -1,6 +1,6 @@
 # hash_generator
 
-The hash_generator walbuilds a path for each file within a directory and generates its SHA256. This can be used to detect if the file contents have been updated.
+The hash_generator builds a path for each file within a directory and generates the file's SHA256. This can be used to detect if the file contents have been updated.
 
 ## Installation
 
@@ -20,7 +20,7 @@ The hash_generator walbuilds a path for each file within a directory and generat
 require "hash_generator"
 ```
 
-To generate the SHA256 for each files within a directory, pass in the path of the folder that you need to `walk` through.
+To generate the SHA256 for each files within a directory, pass in the path of the folder that you need to `walk` through:
 
 ```crystal
 path = "./spec/support/sample_servers_list/sample_server2"
