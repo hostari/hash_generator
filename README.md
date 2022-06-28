@@ -1,6 +1,6 @@
 # hash_generator
 
-TODO: Write a description here
+The hash_generator walbuilds a path for each file within a directory and generates its SHA256. This can be used to detect if the file contents have been updated.
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      hash_generator:
-       github: your-github-user/hash_generator
+       github: hostari/hash_generator
    ```
 
 2. Run `shards install`
@@ -20,11 +20,12 @@ TODO: Write a description here
 require "hash_generator"
 ```
 
-TODO: Write usage instructions here
+To generate the SHA256 for each files within a directory, pass in the path of the folder that you need to `walk` through.
 
-## Development
-
-TODO: Write development instructions here
+```crystal
+path = "./spec/support/sample_servers_list/sample_server2"
+HashGenerator::DirectoryFile.new(path).get_hash
+```crystal
 
 ## Contributing
 
