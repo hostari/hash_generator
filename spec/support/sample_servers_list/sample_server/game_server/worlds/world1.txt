@@ -1,1 +1,1 @@
-My first world
+This file contains the server world information.

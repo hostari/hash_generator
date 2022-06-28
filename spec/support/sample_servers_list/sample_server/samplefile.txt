@@ -1,1 +1,1 @@
-Add text here.
+Hello World! This is a sample file that is not nested in any folder within the server directory.
