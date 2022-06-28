@@ -1,3 +1,5 @@
+require "openssl/hmac"
+
 # SHA256 class  returns a string the file's SHA256 hash.
 module HashGenerator
   class FileHash

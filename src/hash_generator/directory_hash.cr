@@ -5,9 +5,9 @@ module HashGenerator
     end
 
     # returns an object that contains the a list of files in the servers and their respectives SHA256 hashes.
-    def fetch
+    def get_hash
       file_hash = {} of String => String
-      hash_generator = HashGenerator.new
+      hash_generator = HashGenerator::FileHash.new
 
       file_paths = build_path
 
