@@ -1,6 +1,6 @@
 # File Hash returns an object containing the file name(path) and its SHA256 hash.
 module HashGenerator
-  class DirectoryHash
+  class DirectoryFile
     def initialize(@path : String)
     end
 
