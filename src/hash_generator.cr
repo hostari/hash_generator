@@ -1,6 +1,6 @@
-# TODO: Write documentation for `HashGenerator`
+# Specifies information related to this shard, like the `HashGenerator::VERSION`
 module HashGenerator
-  VERSION = "0.1.0"
+  VERSION = "1.0.0"
 end
 
 require "./hash_generator/**"
