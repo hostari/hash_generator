@@ -25,7 +25,7 @@ To generate the SHA256 for each files within a directory, pass in the path of th
 ```crystal
 path = "./spec/support/sample_servers_list/sample_server2"
 HashGenerator::DirectoryFile.new(path).get_hash
-```crystal
+```
 
 ## Contributing
 
@@ -37,4 +37,5 @@ HashGenerator::DirectoryFile.new(path).get_hash
 
 ## Contributors
 
-- [paula4230](https://github.com/your-github-user) - creator and maintainer
+- [paula4230](https://github.com/paula4230) - creator
+- [xaviablaza](https://github.com/xaviablaza) - maintainer
